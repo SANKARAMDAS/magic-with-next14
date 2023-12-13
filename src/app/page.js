@@ -28,11 +28,11 @@ export default async function Home() {
     <>
     <Navbar data={storyData.nav_section} />
     <Hero data={storyData.hero_section} />
-    {/* <Services />
+    <Services />
     <Testimonial />
     <Contact />
     <Faq />
-    <Footer /> */}
+    <Footer />
     </>
   )
 }
